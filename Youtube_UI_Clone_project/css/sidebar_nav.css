@@ -1,0 +1,35 @@
+/* Sidebar nav section start */
+
+nav {
+  width: 72px;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top: 55px;
+  bottom: 0;
+  margin: 0;
+  z-index: 101;
+} 
+
+nav .icon {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 59px;
+   padding-top: 10px;
+   
+}
+.icon div {
+  font-size: 9px;
+  margin-top: 5px;
+ 
+}
+nav .icon:hover {
+  background-color: rgb(226, 226, 226);
+}
+.icon img {
+  width: 24px;
+}
+
+/* Sidebar nav section end */

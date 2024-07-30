@@ -1,0 +1,125 @@
+/* header section */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 55px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(228, 228, 
+  228);
+  z-index: 100;
+}
+
+/* left section */
+.left-section {
+  display: flex;
+  align-items: center;
+  
+}
+.hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.youtube-logo {
+  height: 20px;
+
+}
+
+/* middle section */
+.middle-section {
+  
+  max-width: 470px;
+  margin-left: 68px;
+  margin-right: 25px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: row;  
+}
+.search-bar {
+  width: 0;
+}
+
+.middle-section input {
+  height: 39px;
+  flex: 1;
+  outline: none;
+  border-radius: 2px ;
+  border: 1px solid rgb(215, 214, 214);
+  font-size: 16px;
+  padding-left: 15px;
+  width: 0;
+}
+
+  
+
+
+.search-icon {
+  height: 40px;
+  width: 60px;
+  border: 1px solid rgb(215, 214, 214);
+  margin-left: -2px;
+  border-radius: 0px 2px 2px 0px;
+  margin-right: 8px;
+  background-color: rgb(243, 240, 240);
+}
+.search-icon img {
+  width: 24px;
+  vertical-align: middle;
+}
+.voice-search-icon  {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(246, 245, 245);
+}
+.voice-search-icon img {
+  width: 20px;
+ 
+}
+
+/* right-section */
+.right-section {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 1;
+}
+.upload-icon {
+  width: 24px;
+}
+.yt-apps-icon {
+  width: 24px;
+}
+.notify-icon {
+  width: 24px;
+}
+.notifications {
+  position: relative;
+}
+.notifications div {
+  position: absolute;
+  border: 2px solid white;
+  background-color: crimson;
+  padding: 1px 5px;
+  font-size: 11px;
+  color: white;
+  border-radius: 50%;
+  right: -7px;
+  top: -3px;
+}
+.profile-pic{
+  width:  36px;
+  height: 36px;
+  border-radius: 50%;
+
+}
